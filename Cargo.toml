@@ -1,0 +1,8 @@
+[package]
+name = "sqlx-pg-numeric-compile-error"
+version = "0.1.0"
+edition = "2021"
+license = "AGPL-3.0-only"
+
+[dependencies]
+sqlx = { version = "0.7", default-features = false, features = ["postgres", "rust_decimal"] }
